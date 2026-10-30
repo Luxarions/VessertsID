@@ -3,6 +3,7 @@
  * Master entry point for VessertID library
  */
 
+// Core
 export { EventDispatcher } from './core/EventDispatcher.js';
 export { Layers } from './core/Layers.js';
 export { Clock } from './core/Clock.js';
@@ -21,3 +22,27 @@ export { InstancedPostAttribute } from './core/InstancedPostAttribute.js';
 export { InstancedFeedGraph } from './core/InstancedFeedGraph.js';
 export { InstancedBatchBuffer } from './core/InstancedBatchBuffer.js';
 export { StorageDriver } from './core/StorageDriver.js';
+
+// Math
+export * as MathUtils from './math/MathUtils.js';
+export {
+	DEG2RAD,
+	RAD2DEG,
+	generateUUID,
+	clamp,
+	euclideanModulo,
+	mapLinear,
+	lerp,
+	damp,
+	pingpong,
+	smoothstep,
+	smootherstep,
+	randInt,
+	randFloat,
+	randFloatSpread,
+	degToRad,
+	radToDeg,
+	isPowerOfTwo,
+	ceilPowerOfTwo,
+	floorPowerOfTwo
+} from './math/MathUtils.js';
