@@ -15,3 +15,4 @@ export { StateTarget } from './core/StateTarget.js';
 export { MultiChannelTarget } from './core/MultiChannelTarget.js';
 export { Param } from './core/Param.js';
 export { ParamsGroup } from './core/ParamsGroup.js';
+export { BatchBuffer } from './core/BatchBuffer.js';
