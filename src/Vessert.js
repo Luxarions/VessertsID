@@ -10,3 +10,4 @@ export { Timer } from './core/Timer.js';
 export { Entity } from './core/Entity.js';
 export { StreamBuffer } from './core/StreamBuffer.js';
 export { GraphTopology } from './core/GraphTopology.js';
+export { FeedMatcher } from './core/FeedMatcher.js';
