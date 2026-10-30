@@ -1,7 +1,6 @@
 /**
  * EventDispatcher
  * Fundamental event dispatching and subscription module.
- * Designed in the exact Three.js architectural standard.
  */
 
 class EventDispatcher {
@@ -68,7 +67,6 @@ class EventDispatcher {
 
 			event.target = this;
 
-			// Snapshot iteration prevents mutation issues during dispatch
 			const array = listenerArray.slice( 0 );
 
 			for ( let i = 0, l = array.length; i < l; i ++ ) {

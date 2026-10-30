@@ -1,8 +1,7 @@
 /**
  * Layers
  * 32-bit bitmask channel manager.
- * Used for audience scoping, privacy filtering, and content gating in social media.
- * Designed in the exact Three.js architectural standard.
+ * Used for audience scoping, privacy filtering, and content gating.
  */
 
 class Layers {
