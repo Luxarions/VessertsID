@@ -19,3 +19,5 @@ export { BatchBuffer } from './core/BatchBuffer.js';
 export { BatchAttribute } from './core/BatchAttribute.js';
 export { InstancedPostAttribute } from './core/InstancedPostAttribute.js';
 export { InstancedFeedGraph } from './core/InstancedFeedGraph.js';
+export { InstancedBatchBuffer } from './core/InstancedBatchBuffer.js';
+export { StorageDriver } from './core/StorageDriver.js';
