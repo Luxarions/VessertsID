@@ -11,3 +11,5 @@ export { Entity } from './core/Entity.js';
 export { StreamBuffer } from './core/StreamBuffer.js';
 export { GraphTopology } from './core/GraphTopology.js';
 export { FeedMatcher } from './core/FeedMatcher.js';
+export { StateTarget } from './core/StateTarget.js';
+export { MultiChannelTarget } from './core/MultiChannelTarget.js';
