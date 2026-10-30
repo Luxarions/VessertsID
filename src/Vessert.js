@@ -17,3 +17,5 @@ export { Param } from './core/Param.js';
 export { ParamsGroup } from './core/ParamsGroup.js';
 export { BatchBuffer } from './core/BatchBuffer.js';
 export { BatchAttribute } from './core/BatchAttribute.js';
+export { InstancedPostAttribute } from './core/InstancedPostAttribute.js';
+export { InstancedFeedGraph } from './core/InstancedFeedGraph.js';
