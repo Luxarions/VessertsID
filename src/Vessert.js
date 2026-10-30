@@ -8,3 +8,4 @@ export { Layers } from './core/Layers.js';
 export { Clock } from './core/Clock.js';
 export { Timer } from './core/Timer.js';
 export { Entity } from './core/Entity.js';
+export { StreamBuffer } from './core/StreamBuffer.js';
